@@ -39,7 +39,7 @@
         @vite('resources/css/app.css')
     <title>Motelkusuka</title>
 </head>
-<body class="font-['Poppins'] mx-auto w-max" >
+<body class="font-['Poppins'] mx-auto" >
     <style type="text/tailwindcss">
 
 
@@ -135,7 +135,7 @@
 
                 <div class=" flex space-x-6 hidden md:block">
                     <a href="#"><img src="{{ ('img/main-logo.svg') }}" alt="" class="inline-block mb-5 mr-10"></a>
-                    <a href="#" class="font-bold border-b-4 border-[#42A66A] p-2 title">Home</a>
+                    <a href="#" class="font-bold border-b-4 border-[#42A66A] p-2 title">Dashboard</a>
                     <a href="#" class="ease-in-out duration-300 hover:font-bold hover:scale-110 title ">Booking</a>
                     <a href="#" class="ease-in-out duration-300 hover:font-bold hover:scale-110 title">Fasilities</a>
                     <a href="#"class="ease-in-out duration-300 hover:font-bold hover:scale-110 title">About Us</a>
@@ -146,12 +146,9 @@
 
 
                 <div class="md:flex items-center space-x-4 sm:z-50 hidden">
-                    <a href="#" class="ease-in-out duration-300 font-bold text-[#42A66A] underline hover:text-lg ">Login</a>
-                    <a href="#"><button type="button" class="ease-out duration-300 bg-[#42A66A] py-3 rounded-full text-white px-10 font-bold hover:bg-green-600 hover:scale-110"> Register</button></a>
+                    <a href="{{ route('login') }}" class="ease-in-out duration-300 font-bold text-[#42A66A] underline hover:text-lg ">Login</a>
+                    <a href="{{ route('register') }}"><button type="button" class="ease-out duration-300 bg-[#42A66A] py-3 rounded-full text-white px-10 font-bold hover:bg-green-600 hover:scale-110"> Register</button></a>
                 </div>
-
-
-
 
             </nav>
 
@@ -198,13 +195,13 @@
                 <article class="ease-in-out duration-300 card flex flex-col items-left px-[35px] py-[20] relative  hover:-translate-y-1 hover:scale-105 hover:drop-shadow-xl pop">
                     <img src="{{ ('img/popular01.png') }}" alt="" class="rounded-lg">
                     <p class="text-green-400 pt-10">Sukabumi Regency</p>
-                    <h4 class="text-2xl font-bold py-5">Leuwigoong Homestay</h4>
+                    <h4 class="text-2xl font-bold py-5">Leuwigoong Dashboardstay</h4>
                     <h4 class="text-gray-400"><span class="text-2xl font-bold text-black"> 50 USD /</span> Night</h4>
                 </article>
                 <article class="ease-in-out duration-300 card flex flex-col items-left px-[35px] py-[20] relative hover:-translate-y-1 hover:scale-105 hover:drop-shadow-xl pop">
                     <img src="{{ ('img/popular02.png') }}" alt="" class="rounded-lg" >
                     <p class="text-green-400 pt-10">Sukabumi Regency</p>
-                    <h4 class="text-2xl font-bold py-5">Javanaspa Homestay</h4>
+                    <h4 class="text-2xl font-bold py-5">Javanaspa Dashboardstay</h4>
                     <h4 class="text-gray-400"><span class="text-2xl font-bold text-black"> 45 USD /</span> Night</h4>
                 </article>
                 <article class="ease-in-out duration-300 card flex flex-col items-left px-[35px] py-[20] relative hover:-translate-y-1 hover:scale-105 hover:drop-shadow-xl pop">
@@ -352,9 +349,9 @@
           </ul>
         </article>
         <article>
-          <p class="font-bold text-lg py-2">Home</p>
+          <p class="font-bold text-lg py-2">Dashboard</p>
           <ul class="flex flex-col gap-2">
-            <li>Home</li>
+            <li>Dashboard</li>
             <li>Booking</li>
             <li>Prise</li>
             <li>Contact</li>
