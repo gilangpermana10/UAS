@@ -13,6 +13,5 @@ class feedback extends Model
         'name',
         'role',
         'feedback',
-        'img_name',
     ]);
 }

@@ -1,34 +1,3 @@
-{{-- <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
-            /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--tw-bg-opacity: 1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity: 1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.border-gray-200{--tw-border-opacity: 1;border-color:rgb(229 231 235 / var(--tw-border-opacity))}.border-t{border-top-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{--tw-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);--tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.text-center{text-align:center}.text-gray-200{--tw-text-opacity: 1;color:rgb(229 231 235 / var(--tw-text-opacity))}.text-gray-300{--tw-text-opacity: 1;color:rgb(209 213 219 / var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity: 1;color:rgb(156 163 175 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity: 1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity: 1;color:rgb(55 65 81 / var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity: 1;color:rgb(17 24 39 / var(--tw-text-opacity))}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--tw-bg-opacity: 1;background-color:rgb(31 41 55 / var(--tw-bg-opacity))}.dark\:bg-gray-900{--tw-bg-opacity: 1;background-color:rgb(17 24 39 / var(--tw-bg-opacity))}.dark\:border-gray-700{--tw-border-opacity: 1;border-color:rgb(55 65 81 / var(--tw-border-opacity))}.dark\:text-white{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:text-gray-400{--tw-text-opacity: 1;color:rgb(156 163 175 / var(--tw-text-opacity))}.dark\:text-gray-500{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity))}}
-        </style>
-
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-        </style>
-    </head>
-    <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
-
-             --}}
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -41,11 +10,6 @@
 </head>
 <body class="font-['Poppins'] mx-auto" >
     <style type="text/tailwindcss">
-
-
-        header{
-            height: 780px;
-        }
 
         #publish{
             height: 435px;
@@ -90,40 +54,15 @@
 
     </style>
 
-    {{-- hero section start--}}
-    {{-- <section id="home" class="pt-8">
-        <div class="container">
-            <div class="flex flex-wrap mx-auto">
-
-                <div class="w-full self-center px-10 lg:w-1/2 ">
-                    <div class="mt-40 sm:w-[500px]">
-                        <p class="text-xl text-gray-800 font-medium">Mountains | Plans | Beaches</p>
-                        <h1 class="text-6xl my-10"><span class="font-bold text-[#42A66A]">Find</span> your perfect <span class="font-bold text-[#42A66A]">place</span> to your <span class="font-bold text-[#42A66A]">family</span></h1>
-                        <p class="text-sm text-opacity-20">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab magnam nulla dolores, voluptatibus earum culpa error est vel consectetur corrupti odit assumenda. Delectus ab quasi tenetur autem perferendis nisi reiciendis.</p>
-                        <button type="button" class="bg-[#42A66A] py-3 rounded-full text-white px-10 font-bold mt-10 ease-in-out duration-300 hover:bg-green-600 hover:drop-shadow-lg hover:scale-110">Book Now</button>
-                    </div>
-
-                </div>
-
-                <div class="w-full self-end px-4 top-0 -z-10 lg:w-1/2 lg:absolute lg:top-0 lg:right-0">
-                    <div class="mt-40 ">
-                        <img src="{{ ('img/Banner-1.png') }}" alt="" class="absolute ">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
-    {{-- hero section end--}}
 
 
-    <header class=" md:bg-gradient-to-r from-[#F5FFFE] to-green-100 bg-white relative h-max">
+    <header class="">
 
-        <section class=" flex flex-wrap">
+        <section class=" flex flex-wrap bg-gradient-to-r from-[#F5FFFE] to-green-100 bg-white relative h-full pb-36 md:px-10 ">
 
-            <div class="md:block absolute hidden -z-100 right-0 top-0 static">
-                <img src="{{ ('img/Banner-1.png') }}" alt=""  >
-            </div>
+            {{-- <div class="block absolute -z-100 right-0 top-0"> --}}
+                <img class="block absolute -z-100 right-0 top-0" src="{{ ('img/Banner-1.png') }}" alt=""  >
+            {{-- </div> --}}
 
             <nav class="container flex p-3 justify-between items-center mx-auto ">
                 <div class="md:hidden inline-block flex-1 space-x-6 mb-5 mr-10 p-5 top-0">
@@ -146,8 +85,12 @@
 
 
                 <div class="md:flex items-center space-x-4 sm:z-50 hidden">
+                    @auth
+                    <a href="{{ route('dashboard') }}"><button type="button" class="ease-out duration-300 bg-[#42A66A] py-3 rounded-full text-white px-10 font-bold hover:bg-green-600 hover:scale-110"> Dashboard</button></a>
+                    @else
                     <a href="{{ route('login') }}" class="ease-in-out duration-300 font-bold text-[#42A66A] underline hover:text-lg ">Login</a>
                     <a href="{{ route('register') }}"><button type="button" class="ease-out duration-300 bg-[#42A66A] py-3 rounded-full text-white px-10 font-bold hover:bg-green-600 hover:scale-110"> Register</button></a>
+                    @endauth
                 </div>
 
             </nav>
@@ -192,24 +135,7 @@
             </div>
 
             <div class="grid grid-cols-3 gap-3 mt-20 justify-between ">
-                <article class="ease-in-out duration-300 card flex flex-col items-left px-[35px] py-[20] relative  hover:-translate-y-1 hover:scale-105 hover:drop-shadow-xl pop">
-                    <img src="{{ ('img/popular01.png') }}" alt="" class="rounded-lg">
-                    <p class="text-green-400 pt-10">Sukabumi Regency</p>
-                    <h4 class="text-2xl font-bold py-5">Leuwigoong Dashboardstay</h4>
-                    <h4 class="text-gray-400"><span class="text-2xl font-bold text-black"> 50 USD /</span> Night</h4>
-                </article>
-                <article class="ease-in-out duration-300 card flex flex-col items-left px-[35px] py-[20] relative hover:-translate-y-1 hover:scale-105 hover:drop-shadow-xl pop">
-                    <img src="{{ ('img/popular02.png') }}" alt="" class="rounded-lg" >
-                    <p class="text-green-400 pt-10">Sukabumi Regency</p>
-                    <h4 class="text-2xl font-bold py-5">Javanaspa Dashboardstay</h4>
-                    <h4 class="text-gray-400"><span class="text-2xl font-bold text-black"> 45 USD /</span> Night</h4>
-                </article>
-                <article class="ease-in-out duration-300 card flex flex-col items-left px-[35px] py-[20] relative hover:-translate-y-1 hover:scale-105 hover:drop-shadow-xl pop">
-                    <img src="{{ ('img/popular03.png') }}" alt="" class="rounded-lg">
-                    <p class="text-green-400 pt-10">Sukabumi Regency</p>
-                    <h4 class="text-2xl font-bold py-5">Sekarwangi Hotel</h4>
-                    <h4 class="text-gray-400"><span class="text-2xl font-bold text-black"> 30 USD /</span> Night</h4>
-                </article>
+                @include('partials.product')
             </div>
 
         </div>
@@ -277,7 +203,7 @@
         </div>
     </Section>
 
-    <section id="publish" class="bg-gradient-to-r from-[#F4FFFC] to-[#DEFFB4] relative">
+    <section id="publish" class="bg-gradient-to-r from-[#F4FFFC] to-[#DEFFB4] relative pb-20">
         <img src="{{ ('img/build1.png')}}" alt="" class="absolute bottom-0 right-0">
         <div class="container mx-auto">
             <div class="flex justify-between">
@@ -300,26 +226,10 @@
                     <p class="text-green-400 ">Testimonials</p>
                     <h2 class="text-4xl py-2 pb-5 font-bold">Here are some testimonials from our customers</h2>
                     <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quis earum rerum autem, omnis tempore, odio dignissimos deleniti recusandae labore amet, aspernatur rem vitae ipsam veniam reiciendis dicta laborum officiis?</p>
+                    <a href="{{ route('feedback') }}">add feedback</a>
                 </div>
                 <div class="flex-2 z-40 mr-5 relative">
-                    <div class="testi bg-[#F6F6F6] rounded-[30px] pl-10 pt-5">
-                        <div class="flex py-5">
-                            <div class="">
-                                <img src="{{ ('img/michael.png') }}" alt="" width="40px">
-                            </div>
-                            <div class="pl-5">
-                                <h6 class="font-bold">Michael Derospred</h6>
-                                <p class="text-gray-800 text-sm">Arsitect</p>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="max-w-[450px] text-gray-800 my-7">They provide very good service in my opinion, from good communication, to easy payment, I will book hotel again if traveling out of town on this site</p>
-                            <img src="{{ ('img/stars.png') }}" alt="">
-                        </div>
-                        <img src="{{ ('img/quotes.png') }}" alt="" class="w-[60px] right-10 absolute top-[50px]">
-                        <a href=""><img src="{{ ('img/right-arrow.p') }}ng" alt="" class="ease-in-out duration-300  hover:scale-125 hover:drop-shadow-lg -right-3 absolute top-[158px]"></a>
-
-                    </div>
+                    @include('partials.feedback')
             </div>
         </div>
     </section>
