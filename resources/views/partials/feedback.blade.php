@@ -2,9 +2,12 @@
 $getfeedback = DB::select('select * from feedbacks order by id desc limit 1');
 ?>
 
-@dd($getfeedback);
+{{-- @dd($getfeedback); --}}
 
 @foreach ($getfeedback as $item)
+
+    {{-- @dd($item); --}}
+
 <div class="testi bg-[#F6F6F6] rounded-[30px] pl-10 pt-5 pb-10 pr-10">
     <div class="flex py-5">
         <div class="">

@@ -230,6 +230,7 @@
                 </div>
                 <div class="flex-2 z-40 mr-5 relative">
                     @include('partials.feedback')
+                </div>
             </div>
         </div>
     </section>

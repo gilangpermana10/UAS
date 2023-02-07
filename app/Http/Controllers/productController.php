@@ -39,6 +39,7 @@ class productController extends Controller
             'img_name' => $image_store,
             'price' => $request->price,
         ]);
+        
         $article_files->save();
         return redirect()
         ->route('product.index')

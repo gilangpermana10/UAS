@@ -18,7 +18,6 @@ return new class extends Migration
             $table->string('name');
             $table->string('role');
             $table->string('feedback');
-            $table->string('img_name');
             $table->timestamps();
         });
     }

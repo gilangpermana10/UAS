@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use App\Models\feedback;
@@ -18,10 +17,10 @@ class feedbackController extends Controller
         $request->validate([
             'name' => 'required',
             'role' => 'required',
-            'text' => 'required',
+            'feedback' => 'required',
             // 'gallery_image' => 'required|mimes:jpg,jpeg,png,svg',
         ]);
-        @dd($request);
+
         // get value image
         // $image = $request->file('gallery_image');
         // $image_name = $image->hashName();
@@ -32,14 +31,16 @@ class feedbackController extends Controller
         // storage::disk('local')->put('public/img-product/',$image);
 
         // save to DB
-        $files = new feedback ([
+        $feedbacks_store = new feedback ([
             'name' => $request->name,
             'role' => $request->role,
+            // 'img_name' => $image_store,
             'feedback' => $request->text,
         ]);
-        $files->save();
+        
+        $feedbacks_store->save();
         return redirect()
-        ->route('dashboard')
-        ->with('succes', 'Upload file berhasil');
+        ->route('index')
+        ->with('succes', 'berhasil');
     }
 }
